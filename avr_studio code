@@ -38,25 +38,25 @@ while(1)
 	 dis_num(b);
 	 }
 }
-  if(x==10){
+  if(x==10){                     //Add function
   func='+';
   m=1;
   dis_cmd(0x80);
   dis_data('+');
  }
-  if(x==11){
+  if(x==11){                    //Subtract function
   func='-';
   m=1;
   dis_cmd(0x80);
   dis_data('-');
  }
-  if(x==12){
-   func='*';
+  if(x==12){                      //Multiply function
+  func='*'; 
   m=1;
   dis_cmd(0x80);
   dis_data('*');
  }
-  if(x==13){
+  if(x==13){                    //Divide function
   func='/';
   m=1;
   dis_cmd(0x80);
